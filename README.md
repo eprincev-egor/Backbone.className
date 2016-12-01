@@ -4,5 +4,6 @@ Label for classes
 ```js
 var usualParams = {};  
 var SomeView = Backbone.View.extend("SomeView", usualParams);  
-console.log(SomeView);  
+  
+console.log( new SomeView() );  
 ```
